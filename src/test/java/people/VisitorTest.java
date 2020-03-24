@@ -1,9 +1,12 @@
 package people;
 
+import attractions.Attraction;
+import attractions.Park;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class VisitorTest {
 
@@ -27,5 +30,12 @@ public class VisitorTest {
     @Test
     public void hasMoney() {
         assertEquals(40.0, visitor.getMoney(), 0.1);
+    }
+
+    @Test
+    public void canAddToAllAttractionsVisited(){
+        Attraction park = new Park("Queens Park",5);
+        visitor.addToAllAttractionsVisited(park);
+        assertEquals(1,visitor.getAttractions().size());
     }
 }
