@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673a8af2-8f81-44d0-abe4-ce8a4c91b2ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ThemePark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemePark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/Attraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Attraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/people/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/VisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="202" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,26 +134,35 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="143" key="#com.intellij.ide.util.MemberChooser" timestamp="1585084424119">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="533" y="143" key="#com.intellij.ide.util.MemberChooser" timestamp="1585086322976">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="533" y="143" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1585084424119" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1585084755066">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="533" y="143" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1585086322976" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1585091030146">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1585084755066" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1585084755066">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1585088454425" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1585091030146" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1585091030133">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1585084755066" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1585084755065">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1585088454424" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1585091030133" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1585091030132">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1585084755065" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1585084755066">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1585088454423" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1585091030132" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1585091030141">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1585084755066" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1585088454425" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1585091030141" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ThemeParkStartPoint$All_in_ThemeParkStartPoint.ic" NAME="All in ThemeParkStartPoint Coverage Results" MODIFIED="1585084755031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

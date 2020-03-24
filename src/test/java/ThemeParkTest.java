@@ -1,5 +1,6 @@
 import attractions.Attraction;
 import attractions.Playground;
+import behaviours.IReviewed;
 import org.junit.Before;
 import org.junit.Test;
 import people.Visitor;
@@ -21,9 +22,11 @@ public class ThemeParkTest {
 
     @Test
     public void canAddToAllReviewed(){
-        Stall iceCreamStall = new IceCreamStall("Ice cream","Peter",4, ParkingSpot.A4);
+        IReviewed iceCreamStall = new IceCreamStall("Ice cream","Peter",4, ParkingSpot.A4);
         themePark.addToAllReviewed(iceCreamStall);
         assertEquals(1,themePark.getAllReviewed().size());
+        assertEquals(4,themePark.getAllReviewed().get(0).getRating());
+
     }
 
     @Test
@@ -33,6 +36,16 @@ public class ThemeParkTest {
         themePark.visit(John,KidsPlayground);
         assertEquals(1,John.getAttractions().size());
         assertEquals(1,KidsPlayground.getVisitCount());
+    }
+
+    @Test
+    public void canAddToReviewList(){
+        IReviewed kidsPlayground = new Playground("Kids Playground",4);
+        IReviewed iceCreamStall = new IceCreamStall("Ice cream","Peter",2, ParkingSpot.A4);
+        themePark.addToReviewList(kidsPlayground);
+        themePark.addToReviewList(iceCreamStall);
+        assertEquals(2,themePark.getReviewList().size());
+        assertEquals(4,themePark.getReviewList().values().toArray()[0]);
     }
 
 }
